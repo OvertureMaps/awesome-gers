@@ -77,6 +77,7 @@ Pre-built cross-walk tables at `s3://overturemaps-us-west-2/bridgefiles/<release
 - [overtureR](https://github.com/arthurgailes/overtureR): R package loading Overture datasets (with GERS ID columns) as dbplyr/sf data frames.
 - [Fused GERS UDFs](https://github.com/fusedio/udfs): Serverless UDFs exposing HTTPS endpoints to spatially join any polygon dataset to Overture building GERS IDs; exploits H3 encoding for efficient filtering.
 - [overture-geocoder](https://github.com/brad-richardson/overture-geocoder): Serverless geocoder on Cloudflare Workers backed by Overture Maps data; supports forward/reverse lookup and direct GERS ID resolution via edge-cached SQLite shards (Rust + Python).
+- [Mapbase](https://mapbase.dev/): Location registry API for official locations, custom zones, hierarchy, geometry, and SEO-ready location context.
 
 ## Platform Integrations
 
